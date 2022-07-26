@@ -1,0 +1,33 @@
+.nameWrapper {
+  columns: 3;
+  -webkit-columns: 3;
+  -moz-columns: 3;
+  margin: 40px;
+}
+
+.headline {
+  text-align: center;
+}
+
+.inputSearch {
+  text-align: center;
+}
+
+p {
+  cursor: pointer;
+}
+
+.inputfield {
+  width: 250px;
+  padding-left: 20px;
+  height: 30px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .nameWrapper {
+    columns: 1;
+    -webkit-columns: 1;
+    -moz-columns: 1;
+    margin: 40px;
+  }
+}

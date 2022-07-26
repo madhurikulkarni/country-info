@@ -1,0 +1,18 @@
+.headline {
+  text-align: center;
+}
+
+.detailWrapper {
+  background-color: gainsboro;
+  max-width: 400px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.back {
+  text-align: center;
+}
+
+@media only screen and (max-width: 1024px) {
+}
